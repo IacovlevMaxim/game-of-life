@@ -12,7 +12,7 @@ const rows = 30;
 const resolution = 20;
 
 function setup() {
-  frameRate(15);
+  frameRate(20);
   createCanvas(resolution * cols, resolution * rows);
   grid = make2DArray(cols, rows);
   for (let i = 0; i < cols; i++) {
